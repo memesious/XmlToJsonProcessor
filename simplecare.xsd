@@ -1,0 +1,35 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="simplecare">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="member" maxOccurs="unbounded" minOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="us_core_birth_sex"/>
+              <xs:element type="xs:date" name="birth_date"/>
+              <xs:element type="xs:string" name="gender"/>
+              <xs:element type="xs:string" name="member_id"/>
+              <xs:element type="xs:string" name="member_id_system"/>
+              <xs:element name="names">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="name" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="lastName"/>
+                          <xs:element type="xs:string" name="firstName" maxOccurs="unbounded" minOccurs="0"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="record_type"/>
+              <xs:element type="xs:string" name="unique_record_identifier"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

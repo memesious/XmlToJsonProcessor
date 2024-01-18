@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simplecare>
+  <member>
+    <us_core_birth_sex>male</us_core_birth_sex>
+    <birth_date>1968-10-07</birth_date>
+    <gender>male</gender>
+    <member_id>b40e5e06-509d-11ee-be56-0242ac120002</member_id>
+    <member_id_system>HEALTHsuite</member_id_system>
+    <names>
+      <name>
+        <lastName>Yorke</lastName>
+        <firstName>Thomas</firstName>
+        <firstName>Edward</firstName>
+      </name>
+    </names>
+    <record_type>A</record_type>
+    <unique_record_identifier>e61f4c8296538d81be333c0a49e9ce93FAMILYCARE</unique_record_identifier>
+  </member>
+</simplecare>

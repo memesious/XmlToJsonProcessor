@@ -1,0 +1,32 @@
+[
+  {
+    "resourceType": "Patient",
+    "id": "e61f4c8296538d81be333c0a49e9ce93FAMILYCARE",
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
+        "valueCoding": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-AdministrativeGender",
+          "code": "male"
+        }
+      }
+    ],
+    "identifier": [
+      {
+        "system": "HEALTHsuite",
+        "value": "b40e5e06-509d-11ee-be56-0242ac120002"
+      }
+    ],
+    "name": [
+      {
+        "family": "Yorke",
+        "given": [
+          "Thomas",
+          "Edward"
+        ]
+      }
+    ],
+    "gender": "male",
+    "birthDate": "1968-10-07"
+  }
+]
